@@ -3,5 +3,12 @@ import VueResource from 'vue-resource'
 import Vuex from 'vuex'
 import routes from './routes'
 
-Vue.use(Vuex)
-Vue.use(VueResource)
+Vue.config.productionTip = false
+
+/* eslint-disable no-new */
+new Vue({
+  el: '#app',
+  router,
+  template: '<App/>',
+  components: { App }
+})
