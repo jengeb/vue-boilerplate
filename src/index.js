@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import VueResource from 'vue-resource'
 import Vuex from 'vuex'
-import routes from './routes'
+import VueRouter from 'vue-router'
 
 Vue.config.productionTip = false
 
