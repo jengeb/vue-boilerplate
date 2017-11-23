@@ -3,13 +3,13 @@
 ## Install dependencies
 
 ```
-$ npm install
+npm install
 ```
 
 # Start server (development mode)
 
 ```
-$ npm run build && npm run dev
+npm run dev
 ```
 
 # Create build (production mode)
@@ -17,5 +17,5 @@ $ npm run build && npm run dev
 ## Create bundle.js
 
 ```
-$ npm run build:p
+npm run build:p
 ```

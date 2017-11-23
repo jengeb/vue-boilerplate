@@ -2,11 +2,11 @@
   "name": "vue-boilerplate",
   "version": "1.0.0",
   "description": "Boilerplate code to start a vue.js project.",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
-    "dev": "NODE_ENV=development webpack-dev-server --hot --progress --host 0.0.0.0",
-    "build": "NODE_ENV=development webpack --progress --optimize-minimize",
-    "build:p": "NODE_ENV=production webpack -p"
+    "dev": "webpack-dev-server --hot --progress --host 0.0.0.0",
+    "build": "webpack --progress --optimize-minimize",
+    "build:p": "webpack -p"
   },
   "author": "",
   "license": "ISC",
