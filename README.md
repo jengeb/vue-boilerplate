@@ -1,5 +1,7 @@
 # Getting started
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jengeb/vue-boilerplate.svg)](https://greenkeeper.io/)
+
 ## Install dependencies
 
 ```
